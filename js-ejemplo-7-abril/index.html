@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones matematicas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <h1>JavaScript Ejemplo 07-04</h1>
+    </header>
+
+    <main class="container-fluid">
+        <section class="row">
+            <section class="col-4 border">
+                 <h2>Calculadora Basica</h2>
+                    <p>
+                        EL usuario ingresa dos valores, seleciona una 
+                        operacion basica ("+" "-" "*") y se muestras el
+                        resultado 
+                    </p>
+                <form>
+                    <section>
+                        <label class="form-label" for="valor1"></label>
+                        <input class="form-control" type="number" name="numValor1" id="numValor1">
+                        <label class="form-label" for="valor2"></label>
+                        <input class="form-control" type="number" name="numValor2" id="numValor2">
+                    </section>
+                    <section class="mt-2 d-flex justify-content-center">
+                        <button type="submit" name="btnSuma" id="btnSuma" class=" btn btn-primary m-1  ">Suma</button>
+                        <button type="submit" name="btnRes" id="btnRes" class=" btn btn-secondary m-1">Resta</button>
+                        <button type="submit" name="btnMulti" id="btnMulti" class=" btn btn-success m-1">Multiplicacion</button>
+                        <button type="submit" name="btnDiv" id="btnDiv" class=" btn btn-info m-1 ">Division</button>
+                    </section>    
+                </form>
+                <div id="divResultado" class="bg-black text-white p-3 mt-4">
+                    Aqui se muestra el resultado
+                </div>
+            </section>
+        </section>
+
+    </main>
+
+    <footer>
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
